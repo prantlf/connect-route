@@ -52,7 +52,7 @@ app.use(connectRoute(function (router) {
 app.listen(3000)
 ```
 
-## Backbround
+## Background
 
 This project started as a fork of [connect-route] and added functionality to support usage scenarios needed by a more complex server, which supports an SPA:
 
