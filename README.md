@@ -10,46 +10,46 @@ Extended, but still simple and fast router for [connect] or other middleware wit
 
 You will need [node] version >= 0.10.0 and [npm] to install and use this module:
 
-	npm install connect-route-ext
+  npm install connect-route-ext
 
 # Usage
 
 ```js
-var connectRoute = require('connect-route-ext'),
-	connect = require('connect'),
-	app = connect();
+var connectRoute = require('connect-route-ext')
+var connect = require('connect')
+var app = connect()
 
 app.use(connectRoute(function (router) {
-	router.get('/', function (req, res, next) {
-			  res.end('index');
-		  })
-		  .get('/home', function (req, res, next) {
-			  res.end('home');
-		  })
-		  .get('/home/:id', function (req, res, next) {
-			  res.end('home ' + req.params.id);
-		  })
-		  .get('/home/*path', function (req, res, next) {
-			  res.end('home ' + req.params.path.join('/'));
-		  })
-		  .post('/home', function (req, res, next) {
-			  res.end('POST to home');
-		  });
+  router.get('/', function (req, res, next) {
+          res.end('index')
+        })
+        .get('/home', function (req, res, next) {
+          res.end('home')
+        })
+        .get('/home/:id', function (req, res, next) {
+          res.end('home ' + req.params.id)
+        })
+        .get('/home/*path', function (req, res, next) {
+          res.end('home ' + req.params.path.join('/'))
+        })
+        .post('/home', function (req, res, next) {
+          res.end('POST to home')
+        })
 
-	function authenticate(req, res, next) {
-		if (authenticated(req)) {
-			next();
-		} else {
-			fail(res);
-		}
-	}
+  function authenticate(req, res, next) {
+    if (authenticated(req)) {
+      next()
+    } else {
+      fail(res)
+    }
+  }
 
-	router.get('/secret', authenticate, function (req, res, next) {
-		res.end('secret');
-	});
-}));
+  router.get('/secret', authenticate, function (req, res, next) {
+    res.end('secret')
+  })
+}))
 
-app.listen(3000);
+app.listen(3000)
 ```
 
 ## Backbround
@@ -65,7 +65,8 @@ In lieu of a formal styleguide, take care to maintain the existing coding style.
 
 ## Release History
 
- * 2017-11-26   v0.2.0   Initial release or the fork with a new name
+* 2017-11-26   v0.2.0   Initial release or the fork with a new name
+                        and additional features
 
 ## License
 
