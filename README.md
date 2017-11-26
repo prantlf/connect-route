@@ -61,7 +61,7 @@ This project started as a fork of [connect-route] and added functionality to sup
 
 ## Contributing
 
-In lieu of a formal styleguide, take care to maintain the existing coding style.
+In lieu of a formal style guide, take care to maintain the existing coding style.
 
 ## Release History
 
