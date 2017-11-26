@@ -1,4 +1,8 @@
-# About 
+[![NPM version](https://badge.fury.io/js/connect-route-ext.png)](http://badge.fury.io/js/connect-route-ext) [![Build Status](https://travis-ci.org/prantlf/connect-route.svg?branch=master)](https://travis-ci.org/prantlf/connect-route) [![Dependency Status](https://david-dm.org/prantlf/connect-route.svg)](https://david-dm.org/prantlf/connect-route) [![devDependency Status](https://david-dm.org/prantlf/connect-route/dev-status.svg)](https://david-dm.org/prantlf/connect-route#info=devDependencies) [![Greenkeeper badge](https://badges.greenkeeper.io/prantlf/connect-route.svg)](https://greenkeeper.io/) [![semantic-release](https://img.shields.io/badge/%20%20%F0%9F%93%A6%F0%9F%9A%80-semantic--release-e10079.svg)](https://github.com/semantic-release/semantic-release)
+
+[![NPM Downloads](https://nodei.co/npm/connect-route-ext.png?downloads=true&stars=true)](https://www.npmjs.com/package/connect-route-ext)
+
+# About
 
 Extended, but still simple and fast router for [connect] or other middleware with the same interface.
 
