@@ -1,5 +1,6 @@
 .git*
 .npmignore
 .travis.yml
+.vscode
 node_modules
 test
