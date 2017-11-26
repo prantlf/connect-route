@@ -1,6 +1,6 @@
 {
 	"name" : "connect-route-ext",
-	"version" : "0.2.0",
+	"version": "0.0.0-development",
 	"description" : "Extended simple and fast router for Connect",
 	"keywords": [ "router", "connect" ],
 	"homepage": "https://github.com/prantlf/connect-route",
@@ -27,10 +27,12 @@
 	],
 	"engines" : { "node": ">= 0.10.0" },
 	"scripts": {
-		"test": "mocha"
+		"test": "mocha",
+		"semantic-release": "semantic-release pre && npm publish && semantic-release post"
 	},
 	"devDependencies": {
 		"chai": "~4.0.2",
-		"mocha": "~3.4.2"
+		"mocha": "~3.4.2",
+		"semantic-release": "^8.2.0"
 	}
 }
