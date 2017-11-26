@@ -30,7 +30,7 @@
     "node": ">= 0.10.0"
   },
   "scripts": {
-    "lint": "standard *.js test/*.js",
+    "lint": "standard *.js && standard --env mocha test/*.js",
     "check": "mocha",
     "test": "npm run lint && npm run check",
     "semantic-release": "semantic-release pre && npm publish && semantic-release post"
@@ -44,10 +44,5 @@
   "keywords": [
     "router",
     "connect"
-  ],
-  "standard": {
-    "env": [
-      "mocha"
-    ]
-  }
+  ]
 }
