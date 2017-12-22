@@ -35,6 +35,9 @@
     "test": "npm run lint && npm run check",
     "semantic-release": "semantic-release"
   },
+  "release": {
+    "branch": "combined"
+  },
   "devDependencies": {
     "chai": "^4.1.2",
     "mocha": "^4.0.1",
