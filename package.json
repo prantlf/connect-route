@@ -33,12 +33,12 @@
     "lint": "standard *.js && standard --env mocha test/*.js",
     "check": "mocha",
     "test": "npm run lint && npm run check",
-    "semantic-release": "semantic-release pre && npm publish && semantic-release post"
+    "semantic-release": "semantic-release"
   },
   "devDependencies": {
     "chai": "^4.1.2",
     "mocha": "^4.0.1",
-    "semantic-release": "^8.2.3",
+    "semantic-release": "^11.0.2",
     "standard": "^10.0.3"
   },
   "keywords": [
