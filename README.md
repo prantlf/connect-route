@@ -13,9 +13,9 @@ Extended, but still simple and fast router for [connect] or other middleware wit
 
 # Installation
 
-You will need [node] version >= 0.10.0 and [npm] to install and use this module:
+You will need [node] version >= 6 and [npm] to install and use this module:
 
-  npm install connect-route-ext
+    npm install connect-route-ext
 
 # Usage
 
@@ -70,12 +70,14 @@ In lieu of a formal style guide, take care to maintain the existing coding style
 
 ## Release History
 
+* 2018-04-27   v1.0.0   Dropped support of Node.js 4
 * 2017-11-26   v0.2.0   Initial release or the fork with a new name
                         and additional features
 
 ## License
 
-Copyright (c) 2017 Ferdinand Prantl
+Copyright (c) 2017-2018 Ferdinand Prantl
+Copyright (c) 2012 Vadim M. Baryshev
 
 Licensed under the MIT license.
 

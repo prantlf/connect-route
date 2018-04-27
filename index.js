@@ -108,8 +108,8 @@ Router.prototype.add = function (method, route, handler) {
 
 Router.prototype.match = function (method, url) {
   var parts = decodeURI(url).split('?', 1)[0]
-                            .replace(separator, '')
-                            .split('/')
+    .replace(separator, '')
+    .split('/')
   var result = {
     params: {} // handler: undefined, route: undefined
   }
