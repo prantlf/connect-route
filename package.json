@@ -41,10 +41,10 @@
   },
   "devDependencies": {
     "chai": "^4.1.2",
-    "mocha": "^5.1.1",
-    "semantic-release": "^15.1.7",
+    "mocha": "^5.2.0",
+    "semantic-release": "^15.5.4",
     "standard": "^11.0.1",
-    "travis-deploy-once": "^4.4.1"
+    "travis-deploy-once": "^5.0.0"
   },
   "keywords": [
     "router",
