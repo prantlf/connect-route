@@ -1,6 +1,6 @@
 .git*
 .npmignore
-.nyc-output
+.nyc_output
 .travis.yml
 .vscode
 coverage
