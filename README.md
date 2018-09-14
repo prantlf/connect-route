@@ -1,5 +1,6 @@
 [![NPM version](https://badge.fury.io/js/connect-route-ext.png)](http://badge.fury.io/js/connect-route-ext)
 [![Build Status](https://travis-ci.org/prantlf/connect-route.svg?branch=combined)](https://travis-ci.org/prantlf/connect-route)
+[![Coverage Status](https://coveralls.io/repos/github/prantlf/connect-route/badge.svg?branch=combined)](https://coveralls.io/github/prantlf/connect-route?branch=combined)
 [![dependencies Status](https://david-dm.org/prantlf/connect-route/status.svg)](https://david-dm.org/prantlf/connect-route)
 [![devDependencies Status](https://david-dm.org/prantlf/connect-route/dev-status.svg)](https://david-dm.org/prantlf/connect-route?type=dev)
 [![semantic-release](https://img.shields.io/badge/%20%20%F0%9F%93%A6%F0%9F%9A%80-semantic--release-e10079.svg)](https://github.com/semantic-release/semantic-release)
