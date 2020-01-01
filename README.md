@@ -68,15 +68,9 @@ This project started as a fork of [connect-route] and added functionality to sup
 
 In lieu of a formal style guide, take care to maintain the existing coding style.
 
-## Release History
-
-* 2018-04-27   v1.0.0   Dropped support of Node.js 4
-* 2017-11-26   v0.2.0   Initial release or the fork with a new name
-                        and additional features
-
 ## License
 
-Copyright (c) 2017-2019 Ferdinand Prantl
+Copyright (c) 2017-2020 Ferdinand Prantl
 Copyright (c) 2012 Vadim M. Baryshev
 
 Licensed under the MIT license.
