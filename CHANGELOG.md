@@ -1,3 +1,11 @@
+## [1.0.6](https://github.com/prantlf/connect-route/compare/v1.0.5...v1.0.6) (2020-01-01)
+
+
+### Bug Fixes
+
+* Commit only the updated changelog during the release ([f270183](https://github.com/prantlf/connect-route/commit/f2701832a04e6a674c46f6320d9e4b7fd8947370))
+* Remove dependencies added by semantic-release ([2ecf1c2](https://github.com/prantlf/connect-route/commit/2ecf1c2b2e34024753ffaadde8dd13a009759410))
+
 ## [1.0.5](https://github.com/prantlf/connect-route/compare/v1.0.4...v1.0.5) (2020-01-01)
 
 ### Bug Fixes
@@ -50,4 +58,3 @@
 ### Bug Fixes
 
 * Improve the documentation ([47a0f8c](https://github.com/prantlf/connect-route/commit/47a0f8cf9a6e41b855636c5d62fc5e97aa0093bc))
-
