@@ -35,7 +35,14 @@
     "test": "npm run lint && npm run check"
   },
   "release": {
-    "branch": "combined"
+    "branch": "combined",
+    "plugins": [
+      "@semantic-release/commit-analyzer",
+      "@semantic-release/release-notes-generator",
+      "@semantic-release/changelog",
+      "@semantic-release/npm",
+      "@semantic-release/github"
+    ]
   },
   "devDependencies": {
     "chai": "^4.2.0",
