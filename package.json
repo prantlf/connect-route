@@ -1,7 +1,7 @@
 {
   "name": "connect-route-ext",
   "description": "Extended simple and fast router for Connect",
-  "version": "0.0.0-development",
+  "version": "1.0.5",
   "homepage": "https://github.com/prantlf/connect-route",
   "author": {
     "name": "Ferdinand Prantl",
@@ -54,5 +54,9 @@
   "keywords": [
     "router",
     "connect"
-  ]
+  ],
+  "dependencies": {
+    "@semantic-release/changelog": "^3.0.6",
+    "@semantic-release/git": "^7.0.18"
+  }
 }
