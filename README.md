@@ -70,7 +70,7 @@ In lieu of a formal style guide, take care to maintain the existing coding style
 
 ## License
 
-Copyright (c) 2017-2020 Ferdinand Prantl
+Copyright (c) 2017-2020 Ferdinand Prantl<br>
 Copyright (c) 2012 Vadim M. Baryshev
 
 Licensed under the MIT license.
